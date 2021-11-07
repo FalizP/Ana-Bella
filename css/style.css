@@ -1,8 +1,9 @@
+/*****SELETORES*****/
 body {
     background: #d2d2c1 url('../images/fundo.png');
     font: 16px Arial, Helvetica, sans-serif;
-
 }
+
 a {
     color: #4b566a;
     text-decoration: none;
@@ -10,6 +11,15 @@ a {
     padding: 5px;
 }
 
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*****ID'S*****/
+
+/*index*/
 #principal {
     width: 900px;
 }
@@ -35,6 +45,19 @@ a {
     margin: 15px;
 }
 
+/*****CLASSES*****/
+
+/*campanha-publicitarias*/
+.img-campanha img {
+    border: 10px solid #c3c3ae;
+}
+
+/*contato*/
+.contato span{
+    line-height: 1.5em;
+}
+
+/*****CLASSES BASSE*****/
 .centralizar {
     text-align: center;
 }
